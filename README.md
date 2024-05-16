@@ -1,1 +1,1 @@
-# Pill-identification-
+Implemented a pill identification program to detect and identify various kinds of pills available in India. Model for identifying the pills is created by integrating MobileNet, ResNet, and EfficientNet. Built an interface using Flask as Backend and HTML and CSS as Frontend to make it user friendly.
