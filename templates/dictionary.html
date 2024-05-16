@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pill Information</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin-bottom: 20px;
+        }
+        p {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Pill Information</h1>
+    <p><strong>Pill Name:</strong> {{ pill_name }}</p>
+    <p><strong>Benefits:</strong> {{ info.benefits }}</p>
+    <p><strong>Side Effects:</strong> {{ info.side_effects }}</p>
+    <p><strong>Dosage:</strong> {{ info.usage }}</p>
+    <p><strong>Tablets:</strong> {{ info.tablets }}</p>
+</body>
+</html>

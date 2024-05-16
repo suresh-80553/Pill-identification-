@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Pill Identification</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='aboutus.css') }}">
+</head>
+<body>
+    <div class="background-container">
+        <!-- Create multiple circles for background animation -->
+        <div class="circle" style="top: 20%; left: 30%; width: 100px; height: 100px;"></div>
+        <div class="circle" style="top: 50%; left: 70%; width: 150px; height: 150px;"></div>
+        <div class="circle" style="top: 80%; left: 10%; width: 80px; height: 80px;"></div>
+    </div>
+    <h1>About Us</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="aboutus.html">About Us</a>
+        <a href="upload.html">Upload</a>
+    </nav>
+    <div class="content">
+        <div class="person">
+            <div class="person-info">
+                <h2>Mukesh Ram B</h2>
+                <p>Register Number: 113120UG08025</p>
+                <p>Department: Artificial Intelligence and Data Science</p>
+                <p>Role in Project: ML Developer(Model building)</p>
+            </div>
+            <a href="https://linkedin.com/in/mukeshramb1702/">
+                <img class="profile-pic" src="static/img/mukeshram-b.jfif" alt="Mukesh Ram">
+            </a>
+        </div>
+        <div class="person">
+            <div class="person-info">
+                <h2>SathyaSandar S</h2>
+                <p>Register Number: 113120UG08039</p>
+                <p>Department: Artificial Intelligence and Data Science</p>
+                <p>Role in Project: Frontend Developer(HTML, CSS, Designing)</p>
+            </div>
+            <a href="http://www.linkedin.com/in/sathyasandar-s">
+                <img class="profile-pic" src="static/img/sathyasandar.jpg" alt="SathyaSandar S">
+            </a>
+        </div>
+        <div class="person">
+            <div class="person-info">
+                <h2>Suresh R</h2>
+                <p>Register Number: 113120UG08045</p>
+                <p>Department: Artificial Intelligence and Data Science</p>
+                <p>Role in Project: Backend Developer(Data Collection, Flask Program)</p>
+            </div>
+            <a href="https://example.com">
+                <img class="profile-pic" src="static/img/suresh.jpg" alt="Suresh R">
+            </a>
+        </div>
+    </div>
+</body>
+</html>
